@@ -37,7 +37,8 @@ Before running the script, make sure you have Python 3 installed on your system.
 4. **Prepare the Data File**
    - Create a JSON file named `data.json` in the root directory of the project.
    - The JSON file should contain the following keys:
-   ```json
+
+```json
    {
     "email": "testemail@gmail.com",
     "firstName": "TestFirstName",
@@ -45,7 +46,7 @@ Before running the script, make sure you have Python 3 installed on your system.
     "mobileNumber": "0400123456",
     "birthYear": "1990"
   }
-   ```
+```
    This file includes the base details used for account creation.
    
    - **Email**: Your Gmail address.
