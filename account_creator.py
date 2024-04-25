@@ -67,8 +67,9 @@ def request_verify_email(email:str)->bool:
     data = {
         "emailAddress":email,
     }
-    response = requests.post(url,headers=HEADERS,data=data)
+    
     try:
+        response = requests.post(url,headers=HEADERS,data=data)
         if response.status_code == 200:
             return True
     except:
