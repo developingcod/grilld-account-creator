@@ -2,7 +2,7 @@
 
 This Python script automates the process of creating and verifying accounts on `digital.grilld.com.au`. It includes functionalities for generating possible email variations, verifying their existence through the Grill'd API, and then registering accounts with those emails. Successfully registered accounts are saved in a CSV file.
 
-This is for their current AFL promotion Mad Bunday ([Mad Bunday](https://cloud.email.grilld.com.au/mad-bunday?utm_source=google&utm_medium=paid&utm_campaign=mad_bunday_2024&utm_content=Search&gad_source=1&gclid=Cj0KCQjw_qexBhCoARIsAFgBleu5bo7GXRejCoNNtVlRxw7caiB_BX2vFojR0BM-jmjeVErNxZbjyzIaAnrIEALw_wcB))
+This is for their current AFL promotion ([Mad Bunday](https://cloud.email.grilld.com.au/mad-bunday?utm_source=google&utm_medium=paid&utm_campaign=mad_bunday_2024&utm_content=Search&gad_source=1&gclid=Cj0KCQjw_qexBhCoARIsAFgBleu5bo7GXRejCoNNtVlRxw7caiB_BX2vFojR0BM-jmjeVErNxZbjyzIaAnrIEALw_wcB))
 
 Once the promotion is over this will be a useless script, as its intent is to exploit the 2 for 1 burger along with the free chips during your birthday month.
 
@@ -88,4 +88,3 @@ Contributions to this project are welcome! Please fork the repository and submit
 
 This project is released under the MIT License. See the LICENSE file in the repository for full details.
 
-```
