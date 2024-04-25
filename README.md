@@ -1,4 +1,3 @@
-```
 # Automated Account Creator for Grill'd Mad Bunday Promotion
 
 This Python script automates the process of creating and verifying accounts on `digital.grilld.com.au`. It includes functionalities for generating possible email variations, verifying their existence through the Grill'd API, and then registering accounts with those emails. Successfully registered accounts are saved in a CSV file.
