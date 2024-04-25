@@ -49,13 +49,13 @@ Before running the script, make sure you have Python 3 installed on your system.
 ```
    This file includes the base details used for account creation.
    
-   - **Email**: Your Gmail address.
-    - **firstName**: Your First Name.
-    - **lastName**: Your Last Name.
-    - **mobileNumber**: Your Mobile Number.
-    - **birthYear**: Your Birth Yeart.
+- **Email**: Your Gmail address.
+- **firstName**: Your First Name.
+- **lastName**: Your Last Name.
+- **mobileNumber**: Your Mobile Number.
+- **birthYear**: Your Birth Year.
    
-   NOTE: Gmail is to be only used in the "email" section of `data.json`
+**NOTE: Gmail is to be only used in the "email" section of `data.json`**
 
 
 
