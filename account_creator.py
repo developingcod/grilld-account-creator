@@ -118,7 +118,7 @@ def password_generator(size=10, chars=string.ascii_lowercase + string.digits)->s
 
 def submit_request(submittedAccounts : list,aflTeam : str,birthMonth : int,email: str,data : dict):
     password = password_generator()
-    birthDate = f"{data['birthYear']}-{birthMonth:02d}-{random.randint(0, 27):02d}"
+    birthDate = f"{data['birthYear']}-{birthMonth:02d}-{random.randint(1, 27):02d}"
     account_submitted = register(birthDate,email,data['firstName'],data['lastName'],data['mobileNumber'],password,aflTeam)
     if account_submitted:
         print(f"Account [{email}] has been created!")
